@@ -1,9 +1,16 @@
 const Loading = () => {
-    return (
-      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white z-50">
-        <p>Loading...</p>
+  return (
+    <div className="loading">
+      <div className="text-center middle">
+        <div className="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-  export default Loading;
+export default Loading;
