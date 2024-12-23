@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Icon } from '@iconify-icon/react';
 
 const Sidebar = () => {
     return (
@@ -19,10 +20,21 @@ const Sidebar = () => {
             </nav>
             <div className="jopho-footer">
                 <ul>
-                    <li><a href="#"><i className="ti-facebook"></i></a></li>
-                    <li><a href="#"><i className="ti-twitter"></i></a></li>
-                    <li><a href="#"><i className="ti-instagram"></i></a></li>
-                    <li><a href="#"><i className="ti-pinterest"></i></a></li>
+                    <li>
+                        <a href="#">
+                            <Icon icon="iconoir:facebook" width="24" height="24" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <Icon icon="hugeicons:instagram" width="24" height="24" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <Icon icon="si:youtube-line" width="24" height="24" />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </aside>

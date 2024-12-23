@@ -6,7 +6,7 @@ const MainLayout = () => {
     return (
         <>
             <Sidebar />
-            <div>
+            <div id="jopho-main">
                 <Outlet />
                 <Footer />
             </div>

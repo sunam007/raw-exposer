@@ -6,9 +6,10 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 import NotFound from './pages/NotFound';
+import Service from './pages/Service';
 
 const App = () => {
-  const isLoading = true; // Replace with your actual loading state
+  const isLoading = true;
 
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="services" element={<Service />} />
           <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="*" element={<NotFound />} />
