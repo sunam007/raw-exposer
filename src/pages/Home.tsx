@@ -1,10 +1,11 @@
+import HeroSlider from "../components/Home/HeroSlider";
 
 const Home = () => {
     return (
         <>
-            <header className="header">
-                <h1>This is home</h1>
-            </header>
+            <div>
+                <HeroSlider/>
+            </div>
         </>
     );
 };

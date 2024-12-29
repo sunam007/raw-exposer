@@ -30,7 +30,7 @@ body {
   overflow-x: hidden !important;
   background: #101010;
 }
-
+/* 
 p {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -69,7 +69,6 @@ b {
   font-weight: 400;
   color: #9c5451;
 }
-/* text field */
 button,
 input,
 optgroup,
@@ -115,7 +114,6 @@ textarea:focus {
   border-color: #9c5451;
 }
 
-/* submit and alert success  */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -151,7 +149,6 @@ button:hover {
   border: 1px solid #9c5451;
   border-radius: 0px;
 }
-/* placeholder */
 ::-webkit-input-placeholder {
   color: #999;
 }
@@ -242,12 +239,10 @@ input[type="checkbox"] {
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-/* important for animate effect */
 .js .animate-box {
   opacity: 0;
 }
 
-/* ======= Selection ======= */
 ::-webkit-selection {
   color: #828282;
   background: rgba(0, 0, 0, 0.1);
@@ -261,7 +256,6 @@ input[type="checkbox"] {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* ======= Scrollbar ======= */
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -279,7 +273,6 @@ input[type="checkbox"] {
   background: #101010;
 }
 
-/* ======= Owl-Theme ======= */
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 15px;
   line-height: 0.7;
@@ -297,7 +290,6 @@ input[type="checkbox"] {
   background: #9c5451;
 }
 
-/* ======= Sections ======= */
 .section-padding {
   padding: 60px 0;
 }
@@ -331,7 +323,6 @@ input[type="checkbox"] {
   margin-bottom: 30px;
 }
 
-/* ======= Sidebar styles ======= */
 #jopho-page {
   width: 100%;
   overflow: hidden;
@@ -371,23 +362,20 @@ input[type="checkbox"] {
     padding: 60px 30px 0 30px;
   }
 }
-/* logo */
 #jopho-aside .jopho-logo {
   margin-bottom: 80px;
-  /* margin-top: 30px; */
   display: block;
 }
 
 #jopho-aside .jopho-logo img {
   width: 128px;
-  /* font-weight: 400;
     font-size: 41px;
     color: #9c5451;
     line-height: 1.1em;
     display: block;
     width: 100%;
     position: relative;
-    margin-bottom: 0; */
+    margin-bottom: 0; 
 }
 
 #jopho-aside .jopho-logo span {
@@ -421,7 +409,6 @@ input[type="checkbox"] {
   margin-top: 0px;
 }
 
-/* Menu */
 #jopho-aside .jopho-main-menu,
 #jopho-aside .jopho-main-menu ul,
 #jopho-aside .jopho-main-menu ul li,
@@ -529,7 +516,6 @@ input[type="checkbox"] {
 #jopho-aside .jopho-main-menu ul ul li > a:hover::after {
 }
 
-/* footer */
 #jopho-aside .jopho-footer {
   position: relative;
   bottom: 0;
@@ -609,7 +595,6 @@ input[type="checkbox"] {
   color: var(--primary-color);
 }
 
-/* important offcanvas for menu */
 body.offcanvas {
   overflow-x: hidden;
 }
@@ -635,7 +620,6 @@ body.offcanvas .jopho-nav-toggle {
   transform: translateX(270px);
 }
 
-/* ======= Content styles ======= */
 
 #jopho-main {
   width: 79.2%;
@@ -661,7 +645,6 @@ body.offcanvas .jopho-nav-toggle {
   }
 }
 
-/* ======= Navigation styles ======= */
 
 #jopho-main-menu {
   margin-bottom: 90px;
@@ -802,7 +785,6 @@ body.offcanvas .jopho-nav-toggle {
   }
 }
 
-/* ======= Header ======= */
 .header {
   min-height: 100vh;
   overflow: hidden;
@@ -879,7 +861,6 @@ body.offcanvas .jopho-nav-toggle {
   margin: 10px 15px;
 }
 
-/* ======= Slider ======= */
 .slider .owl-item,
 .slider-fade .owl-item {
   height: 100vh;
@@ -905,7 +886,6 @@ body.offcanvas .jopho-nav-toggle {
   bottom: 5vh;
   width: 100%;
 }
-/* owl-nav next and prev */
 .owl-nav {
   position: absolute;
   bottom: 4%;
@@ -943,7 +923,6 @@ body.offcanvas .jopho-nav-toggle {
   }
 }
 
-/* ======= Page Banner Header ======= */
 .banner-header {
   height: 55vh;
   z-index: 0;
@@ -1028,7 +1007,6 @@ body.offcanvas .jopho-nav-toggle {
   object-fit: cover;
 }
 
-/* ======= About style ======= */
 .jophoto-about-img img:hover {
   transform: scale(0.95);
 }
@@ -1078,7 +1056,6 @@ body.offcanvas .jopho-nav-toggle {
   margin-top: 13px;
 }
 
-/* ======= Team style ======= */
 .team .item {
   margin-bottom: 30px;
 }
@@ -1131,7 +1108,6 @@ body.offcanvas .jopho-nav-toggle {
   color: #999;
 }
 
-/* ======= Testimonails style ======= */
 .testimonails {
   background-attachment: fixed;
 }
@@ -1162,10 +1138,9 @@ body.offcanvas .jopho-nav-toggle {
 
 .testimonails .owl-theme .owl-dots {
   margin-top: 30px !important;
-}
+} */
 
-/* ======= Services style ======= */
-.services {
+/* .services {
 }
 .services-con {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -1231,7 +1206,6 @@ body.offcanvas .jopho-nav-toggle {
   background-color: #9c5451;
 }
 
-/* ======= Pricing styles ======= */
 .price-box {
   position: relative;
   width: 100%;
@@ -1305,10 +1279,9 @@ body.offcanvas .jopho-nav-toggle {
   font-size: 16px;
   font-weight: 300;
   color: #999;
-}
+} */
 
-/* ======= Gallery style ======= */
-.jophoto-photos .jophoto-photo-item {
+/* .jophoto-photos .jophoto-photo-item {
   position: relative;
   margin-bottom: 30px;
 }
@@ -1379,7 +1352,6 @@ body.offcanvas .jopho-nav-toggle {
   visibility: visible;
 }
 
-/* ======= Blog style ======= */
 .blog-entry {
   width: 100%;
   float: left;
@@ -1453,7 +1425,6 @@ body.offcanvas .jopho-nav-toggle {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* Pagination */
 .jophoto-pagination-wrap {
   padding: 0;
   margin: 0;
@@ -1497,7 +1468,6 @@ body.offcanvas .jopho-nav-toggle {
   }
 }
 
-/* ======= Post style ======= */
 .jophoto-post-section {
   padding-top: 120px;
 }
@@ -1546,7 +1516,6 @@ body.offcanvas .jopho-nav-toggle {
   font-weight: 300;
 }
 
-/* ======= Contact style ======= */
 .jophoto-map-section {
   overflow: hidden;
   margin-bottom: 60px;
@@ -1559,7 +1528,6 @@ body.offcanvas .jopho-nav-toggle {
   background: #fafafa;
 }
 
-/* ======= Buttons ======= */
 .butn {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -1636,7 +1604,6 @@ body.offcanvas .jopho-nav-toggle {
   letter-spacing: 1px;
 }
 
-/* ======= Footer ======= */
 .footer {
   background-color: #090909;
   padding: 20px 0;
@@ -1657,7 +1624,7 @@ body.offcanvas .jopho-nav-toggle {
   line-height: 28px;
   background: transparent;
   margin: 12px;
-}
+} */
 
 /* .footer .logo {
   padding: 0;
