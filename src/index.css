@@ -68,6 +68,31 @@ body {
   bottom: calc(20% + 1px);
   left: calc(8% + 1px);
 }
+
+.react-multi-carousel-item {
+  opacity: 0; /* Inactive slides are hidden */
+  transition: opacity 1s ease-in-out; /* Smooth fade */
+}
+
+.react-multi-carousel-item--active {
+  opacity: 1; /* Active slide is fully visible */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
 /* 
 p {
   font-family: "Raleway", sans-serif;
