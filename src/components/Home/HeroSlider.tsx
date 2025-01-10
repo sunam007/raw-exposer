@@ -8,14 +8,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 
 import c1 from "../../assets/images/hero/c1.jpg";
 import c2 from "../../assets/images/hero/c2.jpg";
 import c3 from "../../assets/images/hero/c3.jpg";
 import c4 from "../../assets/images/hero/c4.jpg";
 
-const HeroSlider1 = () => {
+const HeroSlider = () => {
   return (
     <header>
       <div className="relative">
@@ -23,14 +23,12 @@ const HeroSlider1 = () => {
           spaceBetween={30}
           effect={"fade"}
           navigation={true}
-          pagination={{
-            clickable: true,
+          loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: true,
           }}
-        //   autoplay={{
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        //   }}
-          modules={[EffectFade, Navigation, Pagination, Autoplay]}
+          modules={[EffectFade, Navigation, Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -51,4 +49,4 @@ const HeroSlider1 = () => {
   );
 };
 
-export default HeroSlider1;
+export default HeroSlider;
