@@ -49,7 +49,7 @@ body {
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  font-size: 20px;
+  font-size: 12px;
   text-transform: none !important;
   letter-spacing: 0;
   font-variant: initial;
@@ -64,8 +64,8 @@ body {
   z-index: 1000;
   border: 0;
   background: rgba(0, 0, 0, 0.2);
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   opacity: 1;
   cursor: pointer;
   color: #fff;
@@ -78,7 +78,7 @@ body {
 }
 
 .swiper-button-next {
-  left: calc(8% + 1px);
+  left: calc(7% + 1px);
 }
 
 .swiper-button-prev:hover,
